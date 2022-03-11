@@ -5,6 +5,7 @@
   --primary-color: #3558cb;
   --secondary-color: #213c70;
   --background-color: #fffefe;
+  --gray-color: rgb(140, 156, 173);
 }
 
 body {
@@ -61,7 +62,7 @@ footer {
     }
 
     a {
-      color: gray;
+      color: var(--gray-color);
       font-size: 1.2em;
       font-weight: bold;
       padding: 0.1em 1em;
@@ -104,7 +105,7 @@ footer {
 
   p.description {
     font-size: 1.2em;
-    color: gray;
+    color: var(--gray-color);
     margin: 2em 0;
   }
 
@@ -177,7 +178,7 @@ footer {
     }
 
     label {
-      color: gray;
+      color: var(--gray-color);
       font-size: 1.2em;
       font-weight: bold;
     }
@@ -210,7 +211,7 @@ footer {
   }
 }
 
-.vaccines-section .container{
+.vaccines-section .container {
   margin-top: 5em;
 
   ul {
@@ -229,18 +230,87 @@ footer {
 }
 
 .info-section .container {
-  margin-top: 7em;
-  margin-left: 7em;
+  margin: 7em 7em 7em 7em;
 
   h2 {
     font-family: Lato;
-    font-size: 2.5em;
+    font-size: 3em;
     color: var(--secondary-color);
   }
 
   p {
     margin-right: 60%;
     font-size: 1.2em;
-    color: gray;
+    color: var(--gray-color);
+  }
+
+  ul {
+    margin-top: 6em;
+    display: flex;
+
+    li {
+      margin: 0 1em;
+      padding: 1.8em;
+      border: solid 2px rgba(128, 128, 128, 0.1);
+      border-radius: 10px;
+    }
+
+    h4 {
+      margin: 1em 0;
+      color: var(--secondary-color);
+      font-weight: bold;
+      font-size: 1.38em;
+    }
+
+    p {
+      font-size: 1em;
+      margin: 0;
+    }
+  }
+
+  img {
+    width: 30px;
+    padding: 0.5em;
+    border-radius: 5px;
   }
 }
+
+.preparations-section .container {
+  display: flex;
+
+  .info-image {
+    width: 45%;
+  }
+
+  .right-col {
+    margin: 5em;
+    padding-right: 7em;
+
+    h2 {
+      font-family: Lato;
+      font-size: 2.5em;
+      color: var(--secondary-color);
+    }
+
+    p.description {
+      font-size: 1.2em;
+      color: var(--gray-color);
+      margin: 2em 0;
+    }
+
+    h4 {
+      display: inline;
+      font-size: 1.1em;
+      color: var(--secondary-color);
+    }
+
+    img {
+      width: 15px;
+      padding: 0.5em;
+      border-radius: 5px;
+      vertical-align: middle;
+    }
+  }
+}
+
+// maybe contain in a div

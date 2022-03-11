@@ -4,6 +4,7 @@
   --primary-color: #3558cb;
   --secondary-color: #213c70;
   --background-color: #fffefe;
+  --gray-color: rgb(140, 156, 173);
 }
 
 body {
@@ -70,7 +71,7 @@ footer {
 }
 
 .navbar nav a {
-  color: gray;
+  color: var(--gray-color);
   font-size: 1.2em;
   font-weight: bold;
   padding: 0.1em 1em;
@@ -114,7 +115,7 @@ footer {
 
 .hero .container p.description {
   font-size: 1.2em;
-  color: gray;
+  color: var(--gray-color);
   margin: 2em 0;
 }
 
@@ -197,7 +198,7 @@ footer {
 }
 
 .schedule-section .container .schedule-appointment label {
-  color: gray;
+  color: var(--gray-color);
   font-size: 1.2em;
   font-weight: bold;
 }
@@ -249,19 +250,90 @@ footer {
 }
 
 .info-section .container {
-  margin-top: 7em;
-  margin-left: 7em;
+  margin: 7em 7em 7em 7em;
 }
 
 .info-section .container h2 {
   font-family: Lato;
-  font-size: 2.5em;
+  font-size: 3em;
   color: var(--secondary-color);
 }
 
 .info-section .container p {
   margin-right: 60%;
   font-size: 1.2em;
-  color: gray;
+  color: var(--gray-color);
+}
+
+.info-section .container ul {
+  margin-top: 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info-section .container ul li {
+  margin: 0 1em;
+  padding: 1.8em;
+  border: solid 2px rgba(128, 128, 128, 0.1);
+  border-radius: 10px;
+}
+
+.info-section .container ul h4 {
+  margin: 1em 0;
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 1.38em;
+}
+
+.info-section .container ul p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.info-section .container img {
+  width: 30px;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+.preparations-section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.preparations-section .container .info-image {
+  width: 45%;
+}
+
+.preparations-section .container .right-col {
+  margin: 5em;
+  padding-right: 7em;
+}
+
+.preparations-section .container .right-col h2 {
+  font-family: Lato;
+  font-size: 2.5em;
+  color: var(--secondary-color);
+}
+
+.preparations-section .container .right-col p.description {
+  font-size: 1.2em;
+  color: var(--gray-color);
+  margin: 2em 0;
+}
+
+.preparations-section .container .right-col h4 {
+  display: inline;
+  font-size: 1.1em;
+  color: var(--secondary-color);
+}
+
+.preparations-section .container .right-col img {
+  width: 15px;
+  padding: 0.5em;
+  border-radius: 5px;
+  vertical-align: middle;
 }
 /*# sourceMappingURL=homepage.css.map */
