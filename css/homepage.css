@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+:root {
+  --primary-color: #3558cb;
+  --secondary-color: #213c70;
+  --background-color: #fffefe;
+}
+
+body {
+  background: var(--background-color);
+  margin: 0;
+  font-family: "Poppins";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  padding: 5em 2em;
+}
+
+.navbar {
+  padding: 3.5em 7em;
+}
+
+.navbar .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 180px auto;
+      grid-template-columns: 180px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-family: "Lato";
+  font-weight: 900;
+  color: var(--primary-color);
+  font-size: 2em;
+}
+
+.navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: unset;
+  height: 0;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.5em;
+}
+
+.navbar nav li {
+  margin: 0 1em;
+}
+
+.navbar nav a {
+  color: gray;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0.1em 1em;
+}
+
+.navbar nav a:hover {
+  color: black;
+}
+
+.navbar nav li.hoax-buster-cta a {
+  background: var(--primary-color);
+  color: var(--background-color);
+  padding: 1em 2em;
+  border: solid 1px var(--primary-color);
+  border-radius: 0.25em;
+}
+
+.navbar nav li.hoax-buster-cta a:hover {
+  background: var(--background-color);
+  color: var(--primary-color);
+}
+
+.hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .container .left-col {
+  margin: 5em 7em 0 7em;
+  padding-right: 8em;
+}
+
+.hero .container h1 {
+  font-family: "Lato";
+  font-size: 4em;
+  color: var(--secondary-color);
+  margin: 0;
+  margin-top: 0.5em;
+}
+
+.hero .container p.description {
+  font-size: 1.2em;
+  color: gray;
+  margin: 2em 0;
+}
+
+.hero .container .hero-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 4em 3em 0 1em;
+}
+
+.hero .container .hero-elements a {
+  font-size: 1.2;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.hero .container .hero-elements img {
+  width: 16px;
+  padding-right: 1em;
+  vertical-align: middle;
+}
+
+.hero .container .hero-image {
+  width: 50%;
+}
+
+.schedule-section .container {
+  display: block;
+  position: absolute;
+  left: 10%;
+  top: 800px;
+}
+
+.schedule-section .container .section-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.schedule-section .container .section-header img {
+  height: 16px;
+  width: 16px;
+  padding-top: 0.5em;
+}
+
+.schedule-section .container .section-header h4 {
+  font-size: 1.3em;
+  margin: 0;
+  margin-left: 1em;
+  color: var(--secondary-color);
+}
+
+.schedule-section .container .schedule-appointment {
+  margin-top: 3em;
+  padding: 2em;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--background-color);
+}
+
+.schedule-section .container .schedule-appointment img {
+  height: 16px;
+  width: 16px;
+  padding-top: 0.25em;
+  margin-right: 1em;
+}
+
+.schedule-section .container .schedule-appointment ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.schedule-section .container .schedule-appointment li {
+  margin: 0 2em;
+}
+
+.schedule-section .container .schedule-appointment label {
+  color: gray;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.schedule-section .container .schedule-appointment select,
+.schedule-section .container .schedule-appointment input {
+  margin-left: 1.5em;
+  border: 0;
+  background-color: var(--background-color);
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.schedule-section .container .schedule-appointment button {
+  margin-top: 0.4em;
+  padding: 1em 2.5em;
+  border: solid 1px var(--primary-color);
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1em;
+  color: var(--background-color);
+}
+
+.schedule-section .container .schedule-appointment button:hover {
+  background: var(--background-color);
+  color: var(--primary-color);
+}
+
+.vaccines-section .container {
+  margin-top: 5em;
+}
+
+.vaccines-section .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10em;
+}
+
+.vaccines-section .container li {
+  display: inline;
+  margin: auto;
+}
+
+.vaccines-section .container img {
+  width: 200px;
+}
+
+.info-section .container {
+  margin-top: 7em;
+  margin-left: 7em;
+}
+
+.info-section .container h2 {
+  font-family: Lato;
+  font-size: 2.5em;
+  color: var(--secondary-color);
+}
+
+.info-section .container p {
+  margin-right: 60%;
+  font-size: 1.2em;
+  color: gray;
+}
+/*# sourceMappingURL=homepage.css.map */

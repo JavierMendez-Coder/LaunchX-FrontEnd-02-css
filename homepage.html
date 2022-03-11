@@ -5,21 +5,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vaccination</title>
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/homepage.css">
 </head>
 
 <body>
   <div class="navbar">
     <div class="container">
-      <a href="#">Vaccination</a>
+      <a href="#" class="logo">Vaccination</a>
 
       <nav>
         <ul>
-          <li>Database</li>
-          <li>Education</li>
-          <li>News</li>
-          <li>Regulation</li>
-          <li>HoaxBuster</li>
+          <li><a href="#">Database</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Regulation</a></li>
+          <li class="hoax-buster-cta"><a href="#">Hoax Buster</a></li>
         </ul>
       </nav>
     </div>
@@ -50,29 +50,41 @@
 
   <section class="schedule-section">
     <div class="container">
-      <img src="./images/icons/clock.png" alt="Clock" />
-      <h4>Schedule your vaccinations</h4>
+      <div class="section-header">
+        <img src="./images/icons/clock.png" alt="Clock" />
+        <h4>Schedule your vaccinations</h4>
+      </div>
 
       <form action="#" class="schedule-appointment">
-        <label for="location"><img src="./images/icons/maps-and-flags.png" alt="Pin" />Location</label>
-        <select name="locations" id="locations">
-          <option value="jakarta-utara">Jakarta Utara</option>
-        </select>
-
-        <label for="date"><img src="./images/icons/calendar.png" alt="Calendar" />Date</label>
-        <input type="date" id="appointment" name="appointment" value="08-07-2021" />
-
-        <label for="vaccine-type"><img src="./images/icons/edit.png" alt="Pencil" />Vaccine Type</label>
-        <select name="vaccines" id="vaccines">
-          <option value="moderna">Moderna</option>
-        </select>
-
-        <button class="submit-button" type="submit">Submit</button>
+        <ul>
+          <li>
+            <label for="location"><img src="./images/icons/maps-and-flags.png" alt="Pin" />Location</label>
+            <br>
+            <select name="locations" id="locations">
+              <option value="jakarta-utara">Jakarta Utara</option>
+            </select>
+          </li>
+          <li>
+            <label for="date"><img src="./images/icons/calendar.png" alt="Calendar" />Date</label>
+            <br>
+            <input type="date" id="appointment" name="appointment" value="2021-07-08" />
+          </li>
+          <li>
+            <label for="vaccine-type"><img src="./images/icons/edit.png" alt="Pencil" />Vaccine Type</label>
+            <br>
+            <select name="vaccines" id="vaccines">
+              <option value="moderna">Moderna</option>
+            </select>
+          </li>
+          <li>
+            <button class="submit-button" type="submit">Submit</button>
+          </li>
+        </ul>
       </form>
     </div>
   </section>
 
-  <div class="vaccines-logos">
+  <section class="vaccines-section">
     <div class="container">
       <ul>
         <li><img src="./images/astrazeneca-logo.png" alt="AstraZeneca Logo"></li>
@@ -81,7 +93,7 @@
         <li><img src="./images/moderna-logo.jpg" alt="Moderna Logo"></li>
       </ul>
     </div>
-  </div>
+  </section>
 
   <section class="info-section">
     <div class="container">
@@ -242,11 +254,11 @@
         </table>
       </div>
     </div>
-      <div class="lower-container">
-        @2021 Vaccination. All rights reserved
-        <a href="#">Terms & Agreements</a>
-        <a href="#">Privacy Policy</a>
-      </div>
+    <div class="lower-container">
+      @2021 Vaccination. All rights reserved
+      <a href="#">Terms & Agreements</a>
+      <a href="#">Privacy Policy</a>
+    </div>
   </footer>
 </body>
 

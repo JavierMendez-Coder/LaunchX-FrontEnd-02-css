@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+
+:root {
+  --primary-color: #3558cb;
+  --secondary-color: #213c70;
+  --background-color: #fffefe;
+}
+
+body {
+  background: var(--background-color);
+  margin: 0;
+  font-family: "Poppins";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  padding: 5em 2em;
+}
+
+.navbar {
+  padding: 3.5em 7em;
+
+  .container {
+    display: grid;
+    grid-template-columns: 180px auto;
+    justify-content: space-between;
+  }
+
+  .logo {
+    text-decoration: none;
+    font-family: "Lato";
+    font-weight: 900;
+    color: var(--primary-color);
+    font-size: 2em;
+  }
+
+  nav {
+    display: flex;
+    position: unset;
+    height: 0;
+    width: 100%;
+    padding: 0;
+
+    ul {
+      display: flex;
+      padding: 0.5em;
+    }
+
+    li {
+      margin: 0 1em;
+    }
+
+    a {
+      color: gray;
+      font-size: 1.2em;
+      font-weight: bold;
+      padding: 0.1em 1em;
+
+      &:hover {
+        color: black;
+      }
+    }
+
+    li.hoax-buster-cta a {
+      background: var(--primary-color);
+      color: var(--background-color);
+      padding: 1em 2em;
+      border: solid 1px var(--primary-color);
+      border-radius: 0.25em;
+
+      &:hover {
+        background: var(--background-color);
+        color: var(--primary-color);
+      }
+    }
+  }
+}
+
+.hero .container {
+  display: flex;
+
+  .left-col {
+    margin: 5em 7em 0 7em;
+    padding-right: 8em;
+  }
+
+  h1 {
+    font-family: "Lato";
+    font-size: 4em;
+    color: var(--secondary-color);
+    margin: 0;
+    margin-top: 0.5em;
+  }
+
+  p.description {
+    font-size: 1.2em;
+    color: gray;
+    margin: 2em 0;
+  }
+
+  .hero-elements {
+    display: flex;
+    justify-content: space-around;
+    margin: 4em 3em 0 1em;
+
+    a {
+      font-size: 1.2;
+      font-weight: bold;
+      color: var(--secondary-color);
+    }
+
+    img {
+      width: 16px;
+      padding-right: 1em;
+      vertical-align: middle;
+    }
+  }
+
+  .hero-image {
+    width: 50%;
+  }
+}
+
+.schedule-section .container {
+  display: block;
+  position: absolute;
+  left: 10%;
+  top: 800px;
+
+  .section-header {
+    display: flex;
+
+    img {
+      height: 16px;
+      width: 16px;
+      padding-top: 0.5em;
+    }
+
+    h4 {
+      font-size: 1.3em;
+      margin: 0;
+      margin-left: 1em;
+      color: var(--secondary-color);
+    }
+  }
+
+  .schedule-appointment {
+    margin-top: 3em;
+    padding: 2em;
+    border-radius: 10px;
+    display: flex;
+    background-color: var(--background-color);
+
+    img {
+      height: 16px;
+      width: 16px;
+      padding-top: 0.25em;
+      margin-right: 1em;
+    }
+
+    ul {
+      display: flex;
+    }
+
+    li {
+      margin: 0 2em;
+    }
+
+    label {
+      color: gray;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    select,
+    input {
+      margin-left: 1.5em;
+      border: 0;
+      background-color: var(--background-color);
+      font-size: 1.5em;
+      font-weight: bold;
+      color: var(--secondary-color);
+    }
+
+    button {
+      margin-top: 0.4em;
+      padding: 1em 2.5em;
+      border: solid 1px var(--primary-color);
+      border-radius: 5px;
+      background-color: var(--primary-color);
+      font-weight: bold;
+      font-size: 1em;
+      color: var(--background-color);
+
+      &:hover {
+        background: var(--background-color);
+        color: var(--primary-color);
+      }
+    }
+  }
+}
+
+.vaccines-section .container{
+  margin-top: 5em;
+
+  ul {
+    display: flex;
+    padding: 0 10em;
+  }
+
+  li {
+    display: inline;
+    margin: auto;
+  }
+
+  img {
+    width: 200px;
+  }
+}
+
+.info-section .container {
+  margin-top: 7em;
+  margin-left: 7em;
+
+  h2 {
+    font-family: Lato;
+    font-size: 2.5em;
+    color: var(--secondary-color);
+  }
+
+  p {
+    margin-right: 60%;
+    font-size: 1.2em;
+    color: gray;
+  }
+}
