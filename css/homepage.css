@@ -4,6 +4,7 @@
   --primary-color: #3558cb;
   --secondary-color: #213c70;
   --background-color: #fffefe;
+  --background-icon-color: #f1f4fe;
   --gray-color: rgb(140, 156, 173);
 }
 
@@ -85,12 +86,11 @@ footer {
   background: var(--primary-color);
   color: var(--background-color);
   padding: 1em 2em;
-  border: solid 1px var(--primary-color);
   border-radius: 0.25em;
 }
 
 .navbar nav li.hoax-buster-cta a:hover {
-  background: var(--background-color);
+  background: var(--background-icon-color);
   color: var(--primary-color);
 }
 
@@ -160,7 +160,10 @@ footer {
 .schedule-section .container .section-header img {
   height: 16px;
   width: 16px;
-  padding-top: 0.5em;
+  padding: 0.5em;
+  vertical-align: middle;
+  border-radius: 10px;
+  background-color: var(--background-icon-color);
 }
 
 .schedule-section .container .section-header h4 {
@@ -183,8 +186,11 @@ footer {
 .schedule-section .container .schedule-appointment img {
   height: 16px;
   width: 16px;
-  padding-top: 0.25em;
-  margin-right: 1em;
+  padding: 0.5em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  border-radius: 10px;
+  background-color: var(--background-icon-color);
 }
 
 .schedule-section .container .schedule-appointment ul {
@@ -205,7 +211,7 @@ footer {
 
 .schedule-section .container .schedule-appointment select,
 .schedule-section .container .schedule-appointment input {
-  margin-left: 1.5em;
+  margin-left: 1.8em;
   border: 0;
   background-color: var(--background-color);
   font-size: 1.5em;
@@ -216,7 +222,7 @@ footer {
 .schedule-section .container .schedule-appointment button {
   margin-top: 0.4em;
   padding: 1em 2.5em;
-  border: solid 1px var(--primary-color);
+  border: none;
   border-radius: 5px;
   background-color: var(--primary-color);
   font-weight: bold;
@@ -225,7 +231,7 @@ footer {
 }
 
 .schedule-section .container .schedule-appointment button:hover {
-  background: var(--background-color);
+  background: var(--background-icon-color);
   color: var(--primary-color);
 }
 
@@ -295,6 +301,7 @@ footer {
   width: 30px;
   padding: 0.5em;
   border-radius: 5px;
+  background-color: var(--background-icon-color);
 }
 
 .preparations-section .container {
@@ -304,7 +311,9 @@ footer {
 }
 
 .preparations-section .container .info-image {
+  margin-top: 7em;
   width: 45%;
+  height: 75%;
 }
 
 .preparations-section .container .right-col {
@@ -314,7 +323,7 @@ footer {
 
 .preparations-section .container .right-col h2 {
   font-family: Lato;
-  font-size: 2.5em;
+  font-size: 3em;
   color: var(--secondary-color);
 }
 
@@ -322,6 +331,30 @@ footer {
   font-size: 1.2em;
   color: var(--gray-color);
   margin: 2em 0;
+  margin-bottom: 5em;
+}
+
+.preparations-section .container .right-col li {
+  margin: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.preparations-section .container .right-col li p {
+  margin: 0 0 2em 3em;
+  color: var(--gray-color);
+}
+
+.preparations-section .container .right-col .container {
+  display: inline;
+}
+
+.preparations-section .container .right-col .container img {
+  margin-right: 1em;
 }
 
 .preparations-section .container .right-col h4 {
@@ -335,5 +368,163 @@ footer {
   padding: 0.5em;
   border-radius: 5px;
   vertical-align: middle;
+  background-color: var(--background-icon-color);
+}
+
+.contact-section {
+  margin-bottom: 10em;
+}
+
+.contact-section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-section .container .left-col {
+  margin: 7em;
+}
+
+.contact-section .container .left-col h2 {
+  font-family: Lato;
+  font-size: 3em;
+  color: var(--secondary-color);
+}
+
+.contact-section .container .left-col p.description {
+  font-size: 1.2em;
+  color: var(--gray-color);
+  margin: 2em 0;
+  margin-bottom: 5em;
+}
+
+.contact-section .container .left-col table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-section .container .left-col table td {
+  padding: 2.5em 4em;
+}
+
+.contact-section .container .left-col table div.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-section .container .left-col table div.container div {
+  color: var(--secondary-color);
+  font-size: 1.2em;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.contact-section .container .left-col table div.container div p {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: var(--gray-color);
+  margin: 0;
+}
+
+.contact-section .container .left-col table div.container img {
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  margin-right: 1.8em;
+  padding: 0.8em;
+  border-radius: 10px;
+  background-color: var(--background-icon-color);
+}
+
+.contact-section .container .left-col table a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2em;
+  padding: 1.2em 1em;
+  background-color: var(--background-icon-color);
+  border-radius: 10px;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.contact-section .container .left-col table a:hover {
+  color: var(--background-color);
+  background-color: var(--primary-color);
+}
+
+.contact-section .contact-image {
+  margin-top: 6em;
+  width: 50%;
+  height: 75%;
+}
+
+footer {
+  background-color: var(--background-icon-color);
+  margin: 0;
+  padding: 5em 7em;
+}
+
+footer .upper-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .upper-container .left-col .logo {
+  text-decoration: none;
+  font-family: "Lato";
+  font-weight: 900;
+  color: var(--primary-color);
+  font-size: 2em;
+}
+
+footer .upper-container .left-col p {
+  font-size: 1em;
+  color: var(--gray-color);
+}
+
+footer .upper-container .right-col table {
+  text-align: left;
+}
+
+footer .upper-container .right-col table th {
+  text-decoration: none;
+  font-family: "Lato";
+  font-weight: 900;
+  color: var(--secondary-color);
+  font-size: 1.6em;
+}
+
+footer .upper-container .right-col table li {
+  margin-top: 1.5em;
+  margin-right: 3em;
+  font-size: 1em;
+  color: var(--gray-color);
+}
+
+footer .lower-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 4em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .lower-container a {
+  margin-right: 2em;
 }
 /*# sourceMappingURL=homepage.css.map */

@@ -142,32 +142,44 @@
         </p>
         <ul>
           <li>
-            <img src="./images/icons/x-mark.png" alt="Avoid">
-            <h4>Avoid Alcoholic Beverages</h4>
+            <div class="container">
+              <img src="./images/icons/x-mark.png" alt="Avoid">
+              <h4>Avoid Alcoholic Beverages</h4>
+            </div>
             <img src="./images/icons/down-filled-triangular-arrow.png" alt="Arrow Down">
           </li>
-          <li>
-            <img src="./images/icons/warning.png" alt="Avoid">
-            <h4>Avoid stress</h4>
+          <li class="displayed-element">
+            <div class="container">
+              <img src="./images/icons/warning.png" alt="Avoid">
+              <h4>Avoid stress</h4>
+            </div>
             <img src="./images/icons/triangular-filled-up-arrow.png" alt="Arrow Up">
+          </li>
+          <li>
             <p>
               Stress has a profound effect on immune work. Moreover, prolonged stress can increase cortisol production
               and oxidative stress in the body.
             </p>
           </li>
           <li>
-            <img src="./images/icons/graph.png" alt="Chart">
-            <h4>Eat healthy food</h4>
+            <div class="container">
+              <img src="./images/icons/graph.png" alt="Chart">
+              <h4>Eat healthy food</h4>
+            </div>
             <img src="./images/icons/down-filled-triangular-arrow.png" alt="Arrow Down">
           </li>
           <li>
-            <img src="./images/icons/check-mark.png" alt="Check Mark">
-            <h4>Get enough sleep</h4>
+            <div class="container">
+              <img src="./images/icons/check-mark.png" alt="Check Mark">
+              <h4>Get enough sleep</h4>
+            </div>
             <img src="./images/icons/down-filled-triangular-arrow.png" alt="Arrow Down">
           </li>
           <li>
-            <img src="./images/icons/heart.png" alt="Hearth">
-            <h4>Exercise or physical activity</h4>
+            <div class="container">
+              <img src="./images/icons/heart.png" alt="Hearth">
+              <h4>Exercise or physical activity</h4>
+            </div>
             <img src="./images/icons/down-filled-triangular-arrow.png" alt="Arrow Down">
           </li>
         </ul>
@@ -179,36 +191,52 @@
     <div class="container">
       <div class="left-col">
         <h2>Emergency Contact</h2>
-        <p>
+        <p class="description">
           Contact one of the contacts below if you or your family feel unwell and have similar symptoms such as
           COVID-19, make sure you also take care of yourself before reporting to us :
         </p>
         <table>
           <tr>
             <td>
-              <img src="./images/icons/telephone-call.png" alt="Telephone Ringing">
-              Call
-              <p>021.123.1234.14</p>
+              <div class="container">
+                <img src="./images/icons/telephone-call.png" alt="Telephone Ringing">
+                <div>
+                  Call
+                  <p>021.123.1234.14</p>
+                </div>
+              </div>
               <a href="#" class="button">Call Now</a>
             </td>
             <td>
-              <img src="./images/icons/chat.png" alt="Bubble Text">
-              Chat
-              <p>021.123.1234.14</p>
+              <div class="container">
+                <img src="./images/icons/chat.png" alt="Bubble Text">
+                <div>
+                  Chat
+                  <p>021.123.1234.14</p>
+                </div>
+              </div>
               <a href="#" class="button">Chat Now</a>
             </td>
           </tr>
           <tr>
             <td>
-              <img src="./images/icons/video-camera.png" alt="Camera">
-              Video Call
-              <p>021.123.1234.14</p>
+              <div class="container">
+                <img src="./images/icons/video-camera.png" alt="Camera">
+                <div>
+                  Video Call
+                  <p>021.123.1234.14</p>
+                </div>
+              </div>
               <a href="#" class="button">Video Call Now</a>
             </td>
             <td>
-              <img src="./images/icons/mail.png" alt="Mail Card">
-              Message
-              <p>021.123.1234.14</p>
+              <div class="container">
+                <img src="./images/icons/mail.png" alt="Mail Card">
+                <div>
+                  Message
+                  <p>021.123.1234.14</p>
+                </div>
+              </div>
               <a href="#" class="button">Message Now</a>
             </td>
         </table>
@@ -219,8 +247,10 @@
 
   <footer>
     <div class="upper-container">
-      Vaccination
-      <p>Our goal is to hel the world free from the ongoing pandemic</p>
+      <div class="left-col">
+        <a href="#" class="logo">Vaccination</a>
+        <p>Our goal is to help<br>the world free from<br>the ongoing pandemic</p>
+      </div>
       <div class="right-col">
         <table>
           <tr>
@@ -256,8 +286,10 @@
     </div>
     <div class="lower-container">
       @2021 Vaccination. All rights reserved
-      <a href="#">Terms & Agreements</a>
-      <a href="#">Privacy Policy</a>
+      <div class="links">
+        <a href="#">Terms & Agreements</a>
+        <a href="#">Privacy Policy</a>
+      </div>
     </div>
   </footer>
 </body>
