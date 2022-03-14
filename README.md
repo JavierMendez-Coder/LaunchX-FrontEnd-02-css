@@ -32,6 +32,8 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#marketing-plan">Marketing Plan</a></li>
+        <li><a href="#website-screenshot">Website Screenshot</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -44,7 +46,23 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The project's target stands on cloning a [web page][web-page] (made by [Adhiari Subekti][author]) using the knowledge gathered trough multiple sessions.
+The project's target stands on cloning a [web page][web-page] (made by [Adhiari Subekti][author]) using the knowledge gathered trough multiple sessions. Besides a marketing plan is required.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### Marketing Plan
+
+![4p-marketing-mix](images/miscellaneous/marketing-4p-mix.jpg)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### Website Screenshot
+
+![website-screenshot](images/miscellaneous/website-screenshot.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

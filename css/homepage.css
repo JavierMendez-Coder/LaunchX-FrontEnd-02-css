@@ -514,6 +514,11 @@ footer .upper-container .right-col table li {
   color: var(--gray-color);
 }
 
+footer .upper-container .right-col table a {
+  font-size: 1em;
+  color: var(--gray-color);
+}
+
 footer .lower-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -522,9 +527,13 @@ footer .lower-container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-size: 1em;
+  color: var(--gray-color);
 }
 
 footer .lower-container a {
+  font-size: 1em;
+  color: var(--gray-color);
   margin-right: 2em;
 }
 /*# sourceMappingURL=homepage.css.map */
