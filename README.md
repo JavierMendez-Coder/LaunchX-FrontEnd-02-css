@@ -12,7 +12,7 @@
 <h3 align="center">Launch X - Front-end CSS</h3>
 
   <p align="center">
-    Assignments from the third week of Launch X's frontend introduction course.
+    Assignment from the third week of Launch X's frontend introduction course
     <br />
     <a href="https://github.com/javiermendez-coder/LaunchX-FrontEnd-02-css"><strong>Explore the docs »</strong></a>
     <br />
@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The project's target stands on cloning a [web page][web-page] (made by [Adhiari Subekti][author]) using the knowledge gathered trough multiple sessions. Besides a marketing plan is required.
+The project's target stands on cloning a [web page][web-page] (made by [Adhiari Subekti][author]) using the knowledge gathered throughout multiple sessions. Besides a marketing plan is required.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -80,7 +80,7 @@ The project's target stands on cloning a [web page][web-page] (made by [Adhiari 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@none](https://twitter.com/none) - javiermendez0299@gmail.com
+Javier Méndez - javiermendez0299@gmail.com
 
 Project Link: [https://github.com/javiermendez-coder/LaunchX-FrontEnd-02-css](https://github.com/javiermendez-coder/LaunchX-FrontEnd-02-css)
 
